@@ -1,7 +1,7 @@
-# an-apple-a-day
-An apple a day
+# An :apple: a day
+A fun project for solving LeetCode problems
 
-# Insatallation
+# Installation
 -   `npm install`
 
 # Running a Task
