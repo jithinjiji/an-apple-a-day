@@ -1,0 +1,31 @@
+{
+  "name": "an-apple-a-day",
+  "version": "1.0.0",
+  "description": "An apple a day",
+  "main": "index.js",
+  "scripts": {
+    "task": "ts-node",
+    "test": "ts-mocha -p ./tsconfig.json ./**/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jithinjiji/an-apple-a-day.git"
+  },
+  "author": "Jithin Jiji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jithinjiji/an-apple-a-day/issues"
+  },
+  "homepage": "https://github.com/jithinjiji/an-apple-a-day#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.16",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
